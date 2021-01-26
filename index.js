@@ -12,3 +12,7 @@ if (langCode === 'und') {
   const language = langs.where('3', langCode);
   console.log(`This language seems to be ${language.name}.`.green)
 }
+
+// to run enter node index.js and the string you want to input in the console
+// ex. node index.js "This is just a test string"
+// output will be "This language seems to be English."
